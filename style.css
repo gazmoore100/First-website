@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#menu {
+    position: static;
+}
+
+.intro {
+    height:100%;
+    width: 100%;
+    margin: auto;
+    background: url(7.jpg);
+    display: table;
+    top: 0;
+    background-size: cover;
+    opacity: .8;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+.content h1 {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 500%;
+    font-weight: 100;
+    color: white;
+    line-height: normal;
+    margin: auto;
+    
+}
+
+.content h2 {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 300%;
+    font-weight: 100;
+    color: white;
+    margin: auto;
+    line-height: normal;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 135%;
+    font-weight: 400%;
+    text-align: bottom;
+    color: blue;
+    line-height: 200px;
+    
+}
+
+.btn:hover {
+    color: white;
+}
+
+#h1aboutpage {
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Yantramanav', sans-serif;
+
+}
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+	
+}
+
+
