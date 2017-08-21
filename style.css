@@ -3,7 +3,7 @@
 
 html, body {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     height: 100%;
     width: 100%;
 }
@@ -44,12 +44,27 @@ html, body {
     color: white;
     line-height: normal;
     margin: auto;
+    text-align: center;
+    white-space: nowrap;
+    padding: 10% 50% 10% 0%;
+    position: relative;
+    left: -80px;
+   
     
 }
 
 .content h2 {
     font-family: 'Yantramanav', sans-serif;
     font-size: 300%;
+    font-weight: 100;
+    color: white;
+    margin: auto;
+    line-height: normal;
+}
+
+.content h3 {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 200%;
     font-weight: 100;
     color: white;
     margin: auto;
@@ -63,6 +78,12 @@ html, body {
     text-align: bottom;
     color: blue;
     line-height: 200px;
+    position: relative;
+    top: 100px;
+    text-decoration: none;
+    border: solid thin;
+    padding: 10px 20px;
+    border-radius: 9px;
     
 }
 
@@ -77,15 +98,116 @@ html, body {
 
 }
 
+#h2aboutpage {
+    padding: 10px;
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+
+
+
+
 /*--- Media Queries --*/
 @media screen and (max-width: 900px) {
-
+    .content {
+        padding-bottom: 30%;
+    }
+    .content h1 {
+        font-size: 450%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 9px 17px;
+    }
 }
 @media screen and (max-width: 768px) {
-
+ .content {
+        padding-bottom: 40%;
+    }
+    .content h1 {
+        font-size: 300%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
 }
+
 @media screen and (max-width: 480px) {
-	
+	.content {
+        padding-bottom: 50%;
+    }
+    .content h1 {
+        font-size: 250%;
+    }
+    .btn {
+        font-size: 100%;
+        padding: 6px 14px;
+    }
 }
 
+html, about{
+    position:relative;
+    left:10px;
+}
 
+.sign-in {
+    position: relative;
+    right: 40px;
+    float: right;
+    bottom: 0px;
+    margin-top: -30px;
+}
+
+.menu {
+    font-family: 'Yantramanav', sans-serif;
+    font-size:150%;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+h1 {
+    margin: 100px 100px 0px 100px;
+    opacity: 0.5;
+}
+
+h2 {
+    text-align: center;
+}
+
+#profiletxt {
+    position: relative;
+    left: 500px;
+    bottom: 470px;
+    white-space: pre-line;
+    border: solid thin black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    font-weight: 200%;  
+    padding: 10px;
+    word-wrap: break-word;
+    width: 600px;  
+}
+
+#youtubelink {
+    position: relative;
+    float:left;
+    bottom: 650px;
+}
+
+#certifications {
+    position: relative;
+    left: 500px;
+    bottom: 470px;
+    white-space: pre-line;
+    border: solid thin black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    font-weight: 200%;  
+    text-align: center;
+    padding: 10px;
+    word-wrap: break-word;
+    width: 600px; 
+}
